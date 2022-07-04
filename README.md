@@ -10,7 +10,7 @@ Una vez en el IDE de arduino, es necesario configurar la tarjeta ESP-32, nos dir
 
     https://dl.espressif.com/dl/package_esp32_index.json
 
-![PubSubClient](/Imagenes/Preferencias.png)
+![PubSubClient](./Imagenes/Preferencias.png)
 
 Ahora nos dirijimos al menu de **Herramientas** y dentro de la opcion de **Tarjeta** buscamos la que llamada **ESP32 Dev Module**
 
@@ -21,7 +21,7 @@ Adicionalmente debemos ver en que puerto esta conectada nuestra tarjeta, para es
 
 Dentro del mismo menu de **Herramientas** nos vamos a la opcion de **Gestor de Librerias** y en el buscador escribimos **PubSubClient** e instalamos la librería
 
-![PubSubClient](/Imagenes/PubSub.png)
+![PubSubClient](./Imagenes/PubSub.png)
 
 
 # Programa de ESP32
@@ -101,7 +101,7 @@ Copiamos el siguiente codigo dentro del programa
 
 Una vez pegado, cargamos el codigo con el icono que esta apuntando hacia la derecha, en la parte superior izquierda de la pantalla
 
-![Upload](/Imagenes/Upload.png)
+![Upload](./Imagenes/Upload.png)
 
 
 # Posibles errores
@@ -137,4 +137,4 @@ Para solucionarlo debemos deshabilitar **brtltty**
 Basicamente, recibe cualquier caracter del puerto serial, posteriormente genera un numero aleatorio, y lo envia al servidor mqtt, despues de enviarlo lo recibe nuevamente.
 
 
-![Serial](/Imagenes/Serial.png)
+![Serial](./Imagenes/Serial.png)
