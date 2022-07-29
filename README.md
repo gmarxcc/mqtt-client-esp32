@@ -1,4 +1,7 @@
-# Descarga de Arduino IDE
+# Introduction
+First, I would like to thank Andres Perez for the first version of this tutorial.
+
+# Arduino IDE Installation
 
 Lo primero que debemos hacer es descargar el archivo de instalacion desde [La pagina de descarga](https://www.arduino.cc/en/Main/Software)
 
@@ -24,10 +27,11 @@ Dentro del mismo menu de **Herramientas** nos vamos a la opcion de **Gestor de L
 ![PubSubClient](./Imagenes/PubSub.png)
 
 
-# Programa de ESP32
+# ESP32 client code
 
-Copiamos el siguiente codigo dentro del programa
+Next, it is listing the code used to 
 
+```  
     #include <WiFi.h>
     #include <PubSubClient.h>
 
@@ -98,6 +102,7 @@ Copiamos el siguiente codigo dentro del programa
         }
 
     }
+```
 
 Una vez pegado, cargamos el codigo con el icono que esta apuntando hacia la derecha, en la parte superior izquierda de la pantalla
 
